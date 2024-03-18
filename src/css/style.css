@@ -1,3 +1,31 @@
+h2 {
+    font-family: 'Garamond', sans-serif;
+}
+
+h1 {
+    font-family: 'Garamond', sans-serif;
+}
+
+h5 {
+    font-family: 'Garamond', sans-serif;
+}
+
+a {
+    font-family: 'Garamond', sans-serif;
+    font-size: 20px;
+}
+
+li.nav-item.dropdown {
+    font-family: 'Garamond', sans-serif;
+    font-size: 20px;
+}
+
+p {
+    font-family: 'Garamond', sans-serif;
+    font-size: 20px;
+}
+
+
 .navbar-nav {
     float: left;
     margin: 0;
@@ -7,13 +35,13 @@
 }
 
 .container-fluid {
-    background: #25334E;
+    background: #4a5989;
     height: 140px;
 }
 
 .bg-body-tertiary {
     --bs-bg-opacity: 1;
-    background-color: #25334E !important;
+    background-color: #4a5989 !important;
 }
 
 a.nav-link.dropdown-toggle {
@@ -172,8 +200,8 @@ a.btn.btn-primary {
     --bs-btn-disabled-border-color: #ce6854;
 }
 
-div#seccionNormativaParticipantes {
-    background-color: #25334E;
+div#seccionQuienesSomosParticipantes {
+    background-color: #4a5989;
     margin: 3% 0% 3% 0%;
 }
 
@@ -186,16 +214,16 @@ div#sectionQuienesSomos {
 }
 
 
-div#seccionNormativaParticipantes p {
+div#seccionQuienesSomosParticipantes p {
     color: #fff;
     padding: 4% 10%;
 }
 
-div#seccionNormativaParticipantes h2 {
+div#seccionQuienesSomosParticipantes h2 {
     color: #fff;
 }
 
-div#seccionNormativaParticipantes h5 {
+div#seccionQuienesSomosParticipantes h5 {
     color: #ce6854;
     text-align: center;
 }
@@ -229,6 +257,28 @@ div#sectionQuienesSomos p {
     padding-left: 3%;
     padding-right: 3%;
     padding-top: 2%;
-}  
+}
 
 /* quienes somos section */
+
+/* normativa sections */
+
+div#seccionNormativas {
+    background: #e19788;
+    border: 69px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+h2 {
+    font-weight: bold
+}
+
+div#seccionNoticiasInterculturalesNormativas p {
+    padding: 4% 10%;
+}
+
+div#seccionNoticiasInterculturalesNormativas h2 {
+    padding-top: 3%;
+}
+
+/* normativa sections */
