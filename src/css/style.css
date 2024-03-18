@@ -135,15 +135,18 @@ div#sectionVideoHome {
     }
 }
 
-h2, p{
+h2,
+p {
     text-align: center;
 }
 
-div#sectionQuienesSomos,div#sectionNormatividad, div#sectionParticipantes{
+div#sectionQuienesSomos,
+div#sectionNormatividad,
+div#sectionParticipantes {
     margin-top: 3%;
 }
 
-.card-body h5 a{
+.card-body h5 a {
     text-align: center;
     color: #ce6854;
 }
@@ -171,13 +174,23 @@ a.btn.btn-primary {
 
 div#seccionNormativaParticipantes {
     background-color: #25334E;
-    margin-top: 3%;
+    margin: 3% 0% 3% 0%;
 }
+
+div#seccionNoticiasInterculturales {
+    margin: 3%;
+}
+
+div#sectionQuienesSomos {
+    margin: 3%;
+}
+
 
 div#seccionNormativaParticipantes p {
     color: #fff;
     padding: 4% 10%;
 }
+
 div#seccionNormativaParticipantes h2 {
     color: #fff;
 }
@@ -191,3 +204,31 @@ p.card-text {
     color: black !important;
 }
 
+
+/* Carrousel */
+
+.card-body {
+    max-height: 300px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #ce6854;
+    width: 4vh;
+    height: 4vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Carrousel */
+
+/* quienes somos section */
+
+div#sectionQuienesSomos p {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+}
+
+/* quienes somos section */
