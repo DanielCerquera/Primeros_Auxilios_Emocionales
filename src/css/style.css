@@ -216,7 +216,8 @@ div#sectionQuienesSomos {
 
 div#seccionQuienesSomosParticipantes p {
     color: #fff;
-    padding: 4% 10%;
+    padding: 4% 4%;
+    text-align: justify;
 }
 
 div#seccionQuienesSomosParticipantes h2 {
@@ -230,6 +231,10 @@ div#seccionQuienesSomosParticipantes h5 {
 
 p.card-text {
     color: black !important;
+}
+
+.card {
+    min-height: 480px;
 }
 
 
@@ -281,4 +286,62 @@ div#seccionNoticiasInterculturalesNormativas h2 {
     padding-top: 3%;
 }
 
+div#seccionNormativas p,
+div#seccionNormativas h2 {
+    color: white;
+}
+
 /* normativa sections */
+
+
+/* Música */
+
+.contenedorMusica p {
+    text-align: justify
+}
+
+.textoMusical {
+    margin-top: 3%;
+}
+
+.row.genero1 {
+    margin-top: 3%;
+}
+
+.reproductoMusical {
+    display: flex;
+    margin: auto;
+}
+
+.music-loop-author span {
+    color: #ce6854;
+}
+
+.textoMusical {
+    margin-top: 3%;
+    border: black 1px solid;
+    margin-bottom: 3%;
+}
+
+.autorMusical {
+    display: flex;
+}
+
+.music-loop-content {
+    margin: auto;
+}
+
+.accordion img {
+    max-height: 250px;
+}
+
+button.accordion-button {
+    color: #ce6854;
+    font-size: 20px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #ce6854;
+}
+
+/* Música */
